@@ -684,6 +684,3 @@ html.motion-on .flow-pulse.p1{animation-delay:0s}
   .field input,.field select{font-size:16px} /* 16px stops iOS zooming on focus */
 }
 
-/* Canvas hero background — see hero-bg.js. Sits inside .hero-fx, so it is
-   already behind .hero > .wrap and already excluded when motion is off. */
-.hero-canvas{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
