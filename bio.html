@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=17">
+<link rel="stylesheet" href="style.css?v=18">
 <script>/* These are the animated designs: motion is on unless a URL explicitly
    asks for ?motion=off. A production build should restore respect for
    prefers-reduced-motion; this is a review prototype. */
@@ -54,7 +54,7 @@ try{if(!/[?&]motion=off/.test(location.search))document.documentElement.classLis
 <main>
 
 <!-- ============ TEMPLATE NOTE ============ -->
-<section style="padding-bottom:0">
+<section class="sec-panel" style="padding-bottom:0">
   <div class="wrap">
     <div class="placeholder">[TEMPLATE NOTE — this page serves as the bio template for both founders. On the live build each founder gets their own URL.]</div>
   </div>
@@ -81,7 +81,7 @@ try{if(!/[?&]motion=off/.test(location.search))document.documentElement.classLis
 </section>
 
 <!-- ============ HANSON CHENG ============ -->
-<section id="hanson" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+<section id="hanson" class="sec-grid">
   <div class="wrap">
     <p class="crumbs"><a href="index.html">Home</a><span class="sep">»</span><a href="about.html">About Us</a><span class="sep">»</span>Hanson Cheng</p>
     <div class="founder-card reveal">
@@ -101,7 +101,7 @@ try{if(!/[?&]motion=off/.test(location.search))document.documentElement.classLis
 </section>
 
 <!-- ============ SHARED QUOTE ============ -->
-<section>
+<section class="sec-wash">
   <div class="wrap">
     <div class="quote reveal">
       “We started FlowBots because we saw businesses spending thousands on tools that didn't talk to each other and teams buried in work that machines should handle. We build the systems that fix that.”
@@ -111,7 +111,7 @@ try{if(!/[?&]motion=off/.test(location.search))document.documentElement.classLis
 </section>
 
 <!-- ============ HOW WE PROTECT YOUR INVESTMENT ============ -->
-<section style="padding-top:0">
+<section class="sec-inset" style="padding-top:0">
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">Our Commitment</span>
@@ -135,7 +135,7 @@ try{if(!/[?&]motion=off/.test(location.search))document.documentElement.classLis
 </section>
 
 <!-- ============ CLOSING CTA ============ -->
-<section style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+<section>
   <div class="wrap">
     <div class="section-head center reveal">
       <span class="eyebrow">Next Step</span>
@@ -150,7 +150,7 @@ try{if(!/[?&]motion=off/.test(location.search))document.documentElement.classLis
 </section>
 
 
-<section class="lead-section" id="assessment">
+<section class="lead-section sec-feature" id="assessment">
   <div class="wrap lead-grid">
     <div class="lead-copy">
       <span class="eyebrow">Free Automation Assessment</span>
